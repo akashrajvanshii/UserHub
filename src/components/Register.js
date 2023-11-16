@@ -170,12 +170,10 @@ const Register = () => {
 
         const handleButtonClick = (e) => {
             e.preventDefault();
-            // Add your logic here, such as form validation or API calls
 
-            // For now, let's just log the input values
             console.log('Email:', email);
             console.log('Password:', password);
-            const newColor = '#ffcc00'; // You can set any color you prefer
+            const newColor = '#ffcc00'; 
 
             setSvgBackgroundColor(newColor);
             setShowForm(false);
